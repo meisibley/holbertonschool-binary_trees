@@ -35,6 +35,4 @@ int main(void)
 	binary_tree_delete(root);
 	return (0);
 }
-gcc -Wall -Wextra -Werror -peda
-ntic binary_tree_print.c 14-binary_tree_balance.c 141-main.c 0-binary_tree_node.
-c 3-binary_tree_delete.c -o 141-balance
+/*gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c 14-binary_tree_balance.c 141-main.c 0-binary_tree_node.c 3-binary_tree_delete.c -o 141-balance*/
